@@ -1,7 +1,7 @@
 html {
     font-family: Helvetica;
     font-size: 22px;
-    color: seashell;
+    color: rgb(141, 132, 126, 0.9);
     background-color: black;
     text-align: center;
 }
@@ -35,8 +35,8 @@ nav ul li {
     padding: 0 10px;
 }
 
-nav a {
-    color: seashell;
+a {
+    color: rgb(141, 132, 126, 0.9);
     text-decoration: underline;
 }
  main {
@@ -88,14 +88,13 @@ nav a {
      width: 1200px;
      margin: auto;
      display: flex-box;
-     justify-content: center;
-     align-items: center;
  }
 
  #locations-box {
      width: 940px;
      display: inline-flex;
      justify-content: space-between;
+     align-items: center;
  }
 
  .location {
@@ -104,7 +103,26 @@ nav a {
      line-height: 3rem;
  }
 
+ .location h2 {
+     margin: 50px 0 15px;
+ }
+
  .location h3 {
      margin: 0;
  }
 
+ #contact {
+     display: flex;
+     flex-direction: column;
+     height: 200px;
+     line-height: 3rem;
+ }
+
+ #contact h2 {
+     margin: 0;
+ }
+
+ #copyright {
+     margin-left: 20px;
+     text-align: left;
+ }
